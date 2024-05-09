@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+}
+
+.main-content {
+  flex: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-line-input,
+.multi-line-input {
+  margin-bottom: 1rem;
+  width: 50%;
+}
+
+.side-content {
+  flex: 25%;
+}
+
+.note-list {
+  list-style: none;
+  cursor: pointer;
+  border-style: groove;
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  margin-left: 1rem;
+}
